@@ -61,7 +61,7 @@ export function Landing() {
                   </Link>
                 </div>
               </div>
-              <img src="/flow.png" alt="Hero" width="600" />
+              <img className="hidden md:block" src="/flow.png" alt="Hero" width="600" />
             </div>
           </div>
         </section>
