@@ -33,7 +33,7 @@ export function Landing() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Image src={logo} alt="Cortex" width={200} height={100} />
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          <Link href="/guide" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             Getting Started
           </Link>
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
