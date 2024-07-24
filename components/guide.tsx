@@ -19,6 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link";
 import { Header } from "./header";
+import { Snippet } from '@geist-ui/core'
 
 export function Guide() {
   return (
@@ -53,13 +54,8 @@ export function Guide() {
                     Start the Cortex container and connect it to your
                     Elasticsearch cluster:
                   </p>
-                  <pre className="bg-muted p-4 rounded-lg">
-                    <code>
-                      docker run --network host --name cortex -e
-                      CORTEX_PORT=9999 -it
-                      shebpamm/cortex:latest
-                    </code>
-                  </pre>
+                  <br/>
+                  <Snippet text="docker run --network host --name cortex -e CORTEX_PORT=9999 -it shebpamm/cortex:latest"/>
                 </div>
               </li>
             </ol>
