@@ -65,7 +65,7 @@ export function Guide() {
             </ol>
             <h2 className="text-2xl font-bold mt-8 mb-4">Next Steps</h2>
             <Link href="/docs" className="text-m font-medium hover:underline underline-offset-4">
-              Now that you've set up Cortex, explore the project further!
+              Now that you&apos;ve set up Cortex, explore the project further!
             </Link>
           </div>
         </div>
