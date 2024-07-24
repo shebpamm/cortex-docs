@@ -203,7 +203,7 @@ export function Landing() {
   );
 }
 
-function Clock1Icon(props) {
+function Clock1Icon(props: any) {
   return (
     <svg
       {...props}
@@ -223,7 +223,7 @@ function Clock1Icon(props) {
   );
 }
 
-function GaugeIcon(props) {
+function GaugeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -243,7 +243,7 @@ function GaugeIcon(props) {
   );
 }
 
-function LaptopIcon(props) {
+function LaptopIcon(props: any) {
   return (
     <svg
       {...props}
@@ -262,7 +262,7 @@ function LaptopIcon(props) {
   );
 }
 
-function LayoutPanelLeftIcon(props) {
+function LayoutPanelLeftIcon(props: any) {
   return (
     <svg
       {...props}
@@ -283,7 +283,7 @@ function LayoutPanelLeftIcon(props) {
   );
 }
 
-function Link2Icon(props) {
+function Link2Icon(props: any) {
   return (
     <svg
       {...props}
@@ -304,7 +304,7 @@ function Link2Icon(props) {
   );
 }
 
-function RocketIcon(props) {
+function RocketIcon(props: any) {
   return (
     <svg
       {...props}
@@ -326,7 +326,7 @@ function RocketIcon(props) {
   );
 }
 
-function XIcon(props) {
+function XIcon(props: any) {
   return (
     <svg
       {...props}
