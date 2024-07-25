@@ -18,14 +18,14 @@ export function Header() {
           Getting Started
         </Link>
         <Link
-          href="#"
+          href="/docs"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >
           Docs
         </Link>
         <Link
-          href="#"
+          href="/"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >
