@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/landing/",
+      "destination": "https://cortexapp.dev/"
+    },
+    {
+      "source": "/landing/:path*",
+      "destination": "https://cortexapp.dev/:path*"
+    },
+    {
+      "source": "/docs/",
+      "destination": "https://cortexapp.dev/docs"
+    },
+    {
+      "source": "/docs/:path*",
+      "destination": "https://cortexapp.dev/docs/:path*"
+    }
+  ]
+}
