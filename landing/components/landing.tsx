@@ -40,8 +40,7 @@ export function Landing() {
                     Elasticsearch Management made easy.
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    View the state of your cluster in a blink. Cortex is the
-                    ultimate tool for Elasticsearch admins.
+                    View the state of your cluster in a blink.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
