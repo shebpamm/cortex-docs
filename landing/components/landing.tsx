@@ -53,11 +53,11 @@ export function Landing() {
                     Get Started
                   </Link>
                   <Link
-                    href="/docs"
+                    href="https://demo.cortexapp.dev"
                     className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
-                    Learn More
+                    Try the demo!
                   </Link>
                 </div>
               </div>

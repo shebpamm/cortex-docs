@@ -25,11 +25,11 @@ export function Header() {
           Docs
         </Link>
         <Link
-          href="/"
+          href="https://demo.cortexapp.dev"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >
-          About
+          Demo
         </Link>
       </nav>
     </header>
