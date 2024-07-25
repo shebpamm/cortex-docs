@@ -7,7 +7,7 @@ import { useConfig } from 'nextra-theme-docs'
 export default {
   logo: <span style={{ fontSize: '1.5em' }}>✦ Cortex</span>,
   docsRepositoryBase:
-    'https://github.com/shebpamm/cortex-docs/tree/main',
+    'https://github.com/shebpamm/cortex-docs/tree/main/docs',
   editLink: {
     text: 'Edit this page on GitHub'
   },
