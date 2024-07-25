@@ -1,0 +1,44 @@
+Cortex supports the use of TOML, YAML, JSON and env variables for configuration.
+
+This is how the default configuration looks like:
+
+```toml
+port = 3030
+demo = false
+
+[elastic]
+url = "http://localhost:9200"
+
+[ui]
+colorscheme = "neon"
+[ui.flow.node]
+color_attribute = "storage_type"
+attributes = ["availability_zone"]
+[ui.flow.edge]
+attributes = ["storage_type", "availability_zone"]
+```
+
+## Using Environment Variables
+Cortex supports the use of environment variables for configuration. The environment variables should be prefixed with `CORTEX_` and use `_` as a separator for nested keys. For example, the `port` key in the configuration file can be set using the `CORTEX_PORT` environment variable.
+
+## General Configuration
+
+- `port`: The port on which the Cortex server will listen.
+- `demo`: If set to `true`, the server will load a demo dataset on startup.
+
+## Elastic Configuration
+
+- `url`: The URL of the Elasticsearch instance to connect to.  
+Currently only non-secured connections are supported. We recommend running a reverse proxy in front of Elasticsearch to secure the connection!
+
+## UI Configuration
+
+- `colorscheme`: The colorscheme to use for the UI. Currently only `neon` is supported.
+
+### Flow Configuration
+
+One of cortex's killer features is the flow view. The flow view visualizes relocating shards between nodes in an Elasticsearch cluster. The flow view can be configured using the
+following keys:
+
+- `color_attribute`: The attribute to use for coloring the nodes in the flow view. For example, if you want to color the nodes by `storage_type`, set this to `storage_type`.
+- `attributes`: The attributes to show in the node details in the flow view. For example, if you want to show the how which availability zone a node is in, set this to `["availability_zone"]`.
